@@ -4,3 +4,7 @@
 
 
 import inquisition
+
+SPANISH = inquisition.SPANISH
+
+FLEMISH = SPANISH[0:19] + 'Flemish ' + SPANISH[27:419]
